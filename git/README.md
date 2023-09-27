@@ -12,4 +12,11 @@
 - 명령어
 
   - ```git commit -m "commit Message를 이곳에 입력"```
-  - ```git commit -message "commit Message를 이곳에 입력"```
+  - ```git commit -message "commit Message를 이곳에 입력"```  
+
+- 얼마나 자주 commit을 만들어야 하나?
+  - 너무 작지도, 크지도 않게 한다.
+  - commit 단위가 너무 작을 경우 불필요한 commit이 생성됨
+  - commit 단위가 너무 클 경우 장애시 빠른 대응이 힘듬
+  - 예시 : 30분 안에 리뷰 가능하도록 commit
+  
