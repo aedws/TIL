@@ -11,6 +11,16 @@
 - 그래서 Staging area라는 영역을 따로 두고, commit에 포함될 code(file)만 스테이징 영역에 추가하게 한 다음, commit을 만든다.
   - 스테이징 영역에 파일을 추가할 때 쓰는 명령어: `git add filename`
 
+### gitignore 파일
+- 루트 경로에 있는 `gitignore`파일은 버전관리 하지 않을 파일의 목록을 관리하는 용도로 쓰인다.
+- 사용하는 운영체제, 에디터, 프로그래밍 언어, SDK, 라이브러리등의 종류에 따라 사람이 의도하지 않은 파일이 생성되는데, 이런 파일들은 버전관리 대상이 아니므로 `gitignore`에서 관리 한다.
+  - 예시 : https://github.com/ckdqja581592/2023_project/blob/main/23_project/.gitignore
+
+- 처음 프로젝트 세팅하는 사람은 여러 툴을 사용해 자동으로 `gitignore`파일에 들어갈 내용을 생성한다.
+  - 웹사이트 : https://www.toptal.com/developers/gitignore  
+  - Vscode 익스텐션 : 
+    - gitignore by CodeZombie
+
 ## 2023-09-27
 - commit 이란?
   - GIT에 기본 단위로 논리적 변경이 있을 때 만든다. (사진찍기와 유사)
